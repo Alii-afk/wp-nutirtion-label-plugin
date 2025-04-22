@@ -1,0 +1,481 @@
+/* body  */
+body {
+    background-color: #f6f6f6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px 0;
+}
+#temp_parent_div_result
+{
+	color: black;
+}
+/* step 1 */
+
+.Nutration_Step_one,
+.Nutration_Step_2 {
+    width: 70%;
+    margin: 3% auto;
+    background-color: white;
+    padding: 1% 2%;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.Nutration_Basic_Nutration,
+.Nutration_Standard_Nutration,
+.Nutration_Tabbed_Nutration {
+    display: flex;
+    margin: 2% 0%;
+    align-items: center;
+    padding: 1%;
+    border-radius: 8px;
+    gap: 1.5%;
+    border: 1px solid #ccc;
+}
+
+.Nutration_Basic_Nutration,
+.Nutration_Standard_Nutration,
+.Nutration_Tabbed_Nutration p {
+    color: #666;
+}
+@media only screen and (max-width: 628) {
+.Nutration_Basic_Nutration,
+.Nutration_Standard_Nutration
+	{
+		display: block;
+	}
+}
+
+/* step2  */
+.Nutration_Span_Step2 {
+    color: #666;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.Nutration_Step_2 {
+    padding: 1% 2%;
+}
+
+.Input_Div_Step2 span {
+    background-color: #666;
+    color: white;
+    padding: 0px 8px;
+    border-radius: 50px;
+letter-spacing: normal;
+}
+
+.Input_Div_Step2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 4%;
+    gap: 3%;
+    border-bottom: 1px solid gray;
+}
+
+.Input_Div_Step2,
+.Nutration_Divs_Step2,
+.Part_Div3 ,.Nutration_Last_Div ,.Nutration_Last_End label {
+    color: #666;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 20px;
+}
+
+.Input_Div_Step2 input {
+    background-color: #eeeeee;
+    width: 62%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: medium;
+    color: #666;
+	height: 45px;
+}
+
+.Input_Div_Step2 select {
+    background-color: #eeeeee;
+    width: 66%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #666;
+	height: auto !important;
+    font-size: medium;
+}
+
+.Nutration_Having_que {
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.Input_Div_Step2 input:hover,
+select:hover {
+    box-shadow: 3px 3px 3px #eeeeee;
+}
+
+.Part_Div3 input:hover,
+select:hover {
+    box-shadow: 3px 3px 3px #eeeeee;
+}
+
+.Nutration_Divs_Step2 input {
+    background-color: #eeeeee;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #666;
+    font-size: medium;
+	height: 45px;
+}
+
+.Nutration_Divs_Step2 {
+    padding-bottom: 20px ;
+    border-bottom: 1px solid gray;
+}
+
+.Part_Div3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3%;
+    padding: 10px auto;
+    margin-bottom: 5%;
+}
+
+
+.Part_Div3 input {
+    background-color: #eeeeee;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: medium;
+    color: #666;
+    height: 45px;
+}
+.Nutration_Last_Div input {
+    background-color: #eeeeee;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: medium;
+    color: #666;
+    	height: 45px;
+}
+.Nutration_Last_Div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3%;
+    align-items: center;
+    padding: 20px 0;
+}
+.Nutration_Last_Div select {
+    background-color: #eeeeee;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #666;
+    font-size: medium;
+}
+.Nutration_Last_End input {
+    background-color: #eeeeee;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: medium;
+    color: #666;
+    margin-top: 5px;
+}
+.Nutration_Last_End{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3%;
+    align-items: center;
+    padding: 5px 0;
+}
+.servings
+{
+	 border: none !important;
+    font-size: 10pt;
+}
+#AMOUNT_SERVING{
+	 border: none !important;
+}
+.Nutration_Last_End select {
+    background-color: #eeeeee;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #666;
+    font-size: medium;
+}
+.Optional_Vitamans , .Optional_Vitamans2{
+    margin: 1% 0 ;
+    color: #666;
+    font-weight: bold;
+    font-size: small;
+}
+.PAdding_Div{
+    padding: 10px 0;
+    margin-bottom: 16%;
+}
+.Last_Button_Div{
+    width: 100%;
+    justify-content: end;
+    margin-top: 20px;
+    gap: 1%;
+    display: flex;
+}
+.Nutration_Left_Button{
+    background-color: #E2E2E2;
+    border: none;
+    padding: 12px 24px ;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.Nutration_Right_Button{
+    background-color: #F29C45;
+    border: none;
+    padding: 14px 30px ;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.Nutration_Step_4{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    padding: 1% 2%;
+    border-radius: 10px;
+}
+.Nutration_Coloumn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Nutration_Single_Coloumn{
+    background-color: #8BBBDB;
+    padding: 12px 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.Nutration_Dual_Coloumn{
+    background-color: #1E92E0;
+    padding: 12px 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.Save_Nutration{
+    background-color: #F29C45;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.Image_Div_Step4{
+    width: 100%;
+    margin: 2% auto;
+}
+.Downlods_Button{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+.Downlods_Button button{
+    background-color: #F29C45;
+    padding: 12px 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* css for js  */
+.Nutration_Step_2{
+    display: none;
+}
+.Nutration_Step_4{
+    display: none;
+}
+#Open_Opptional_Menu{
+    display: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 2%;
+}
+.Optional_Vitamans {
+    border-bottom: 1px solid gray;
+    padding: 20px 0;
+}
+
+
+#result_div
+{
+
+display: block;
+border: 1.5pt solid black  !important;
+padding: 2px;
+}
+
+
+.temp_parent_div {
+min-width: 680px;
+max-width: 755px;
+margin: auto;
+border: 1px solid black;
+width: 97%;
+padding: 3px 4px;
+font-size: 10pt !important;
+flex-direction: column;
+display: grid;
+grid-template-columns: 29% 59% 10%;
+}
+
+
+.temp_Center_Div_Child {
+display: grid;
+grid-template-columns: 47% 47%;
+gap: 3%;
+}
+
+.temp_line {
+border-bottom: 1.5px solid #808285;
+margin-top: 1px;
+width: 90%;
+margin-bottom: 5px;
+}
+
+.temp_nutrition_heading {
+font-size: 22pt !important;
+color: #231f20;
+line-height: 35px;
+font-family: HelveticaBlack;
+}
+
+.temp_paragraph_h {
+font-family: HelveticaBlack;
+font-size: 9pt !important;
+display: block;
+}
+
+.temp_paragraph_h2 {
+font-family: HelveticaBlack;
+font-size: 8pt;
+}
+.linear_cal {
+font-size: 14pt;
+}
+
+.temp_h2 {
+font-family: HelveticaBlack;
+font-size: 10pt;
+}
+.temp_6pt
+{
+font-family: HelveticaRegular;
+font-size: 6pt !important;
+}
+.temp_6pt_bold
+{
+font-family: HelveticaBlack;
+font-size: 6pt !important;
+}
+.temp_8pt
+{
+font-family: HelveticaRegular;
+font-size: 8pt !important;
+}
+.temp_8pt_bold
+{
+font-family: HelveticaBlack;
+font-size: 8pt !important;
+}
+.temp_9pt
+{
+font-family: HelveticaRegular;
+font-size: 9pt !important;
+}
+.temp_10pt
+{
+font-size: 10pt !important;
+}
+.temp_20pt
+{
+font-size: 20pt !important;
+}
+.temp_child_p {
+display: grid;
+grid-template-columns: 55% 45%;
+}
+
+.temp_line_2 {
+border-bottom: 3pt solid black;
+margin-top: 2px;
+margin-bottom: 2px;
+width: 99%;
+}
+
+.temp_line_3 {
+border-bottom: 1.5px solid #808285;
+width: 99%;
+}
+.temp_line_4 {
+    border-bottom: 1.5px solid #808285;
+    width: 90%;
+    margin-left: 9%;
+}
+.temp_margin {
+font-style: italic;
+margin-left: 20px
+}
+.temp_italic {
+font-style: italic;
+}
+
+.temp_Serving_Container {
+font-size: 10pt !important;
+}
+
+.temp_Percent_Value{
+margin-top: 18pt !important;
+font-size: 6pt !important;
+font-family: HelveticaRegular;
+
+}
+
+
+.parent {
+border: 2px solid black;
+padding: 3px;
+display: inline-block;
+}
+.temp_size {
+font-size: 12pt;
+font-family: HelveticaBlack;
+}
+.temp_bold {
+font-family: HelveticaBlack;
+}
+.paragraph_2
+{
+line-height: 10px;
+}
+

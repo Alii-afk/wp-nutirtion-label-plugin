@@ -1,0 +1,157 @@
+.outer-frame {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.nutritional-facts {
+  display: inline-block;
+  padding: 2pt;
+  user-select: none;
+}
+select {
+    height: auto !important;
+}
+span
+{
+	letter-spacing: normal;
+}
+
+table {
+  border-collapse: collapse;
+   color: black !important;
+  font-family: Helvetica !important;
+  position: relative;
+	margin-bottom: 0em !important;
+    width: 180pt;
+}
+
+table td:hover {
+  cursor: default;
+}
+
+table td:last-child {
+  text-align: right;
+  padding: 0px !important;
+}
+
+table td:only-child {
+  text-align: left;
+  padding: 0px !important;
+}
+
+table .basic-border-bottom > td {
+  border-bottom: 0.5pt solid black;
+  padding: 0px !important;
+}
+table th, table td {
+    padding: 0px !important;
+line-height: 20px;
+
+}
+table td.basic-border-bottom {
+  border-bottom: 0.5pt solid black;
+}
+
+table td.basic-border-top {
+  border-top: 0.5pt solid black;
+}
+
+table td.medium-border-bottom {
+  border-bottom: 3pt solid black;
+}
+
+table td.medium-border-top {
+  border-top: 3pt solid black;
+}
+
+table .medium-border-bottom > td {
+  border-bottom: 3pt solid black;
+}
+
+table .large-border-bottom > td {
+  border-bottom: 7pt solid black;
+}
+
+table #TITLE {
+  font-family: HelveticaBlack !important;
+  font-size: 16pt;
+  padding: 0px;
+  border: none !important;
+	line-height: 38px;
+}
+
+/** Servings **/
+table .serving-size {
+  font-family: HelveticaBlack;  
+}
+
+table .serving-size p, table .servings p {
+  display: inline-block;
+  margin: 0;
+}
+
+table .serving-font-size {
+  font-size: 10pt;
+}
+
+table #AMOUNT_SERVING {
+  font-size: 6pt;
+  font-family: HelveticaBlack;
+}
+
+/** Calories **/
+table #NUM_CALORIES {
+  font-family: HelveticaBlack;
+  font-size: 22pt;
+  vertical-align: middle;
+}
+
+table #CALORIES {
+  font-family: HelveticaBlack;
+  font-size: 16pt;
+line-height: 30px;
+}
+
+/** Vitamins and Minerals **/
+table #PER_DAILY_VALUE {
+  font-family: HelveticaBlack;
+  font-size: 6pt;
+}
+
+table .percentage {
+  font-size: 8pt;
+  font-family: HelveticaBlack;
+}
+
+table .vitamin-value {
+  font-size: 8pt;
+  font-family: HelveticaRegular;
+}
+
+table .vitamin-top-label {
+  font-size: 8pt;
+  font-family: HelveticaBlack;
+}
+
+table .vitamin-bottom-label {
+  font-size: 8pt;
+}
+
+table .sub-1 {
+  text-indent: 6pt;
+
+}
+
+table .sub-2 {
+  border-top: 1px solid black;
+  margin-left: 12pt;
+}
+
+/** footnote **/
+.footnote {
+  font-size: 6pt;
+  line-height: 8pt;
+  padding-top: 4pt;
+}
+

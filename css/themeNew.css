@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Helvetica;
+  src: url("fonts/Helvetica.ttf");
+}
+
+@font-face {
+  font-family: HelveticaBlack;
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/HelveticaBlack.ttf");
+}
+
+@font-face {
+  font-family: HelveticaBold;
+  font-style: normal;
+  font-weight: bold;
+  src: url("fonts/Helvetica-Bold-Font.ttf");
+}
+
+@font-face {
+  font-family: HelveticaRegular;
+  font-weight: normal;
+  src: url("fonts/Helvetica Regular.otf");
+}
+
+
+body {
+  background: #ddd;
+}
+
