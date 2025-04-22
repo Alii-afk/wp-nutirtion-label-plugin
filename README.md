@@ -23,5 +23,5 @@ A lightweight and easy-to-use WordPress plugin that allows users to generate pro
 
 ### 🔹 Step 2: Add Shortcode to a Page
 
-Add this shortcode to any page or post:
+Add [nutrition_label_form] shortcode to any page or post to view
 
