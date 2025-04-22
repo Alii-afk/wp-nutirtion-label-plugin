@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Plugin Name: My Nutrition Label Plugin
- * Plugin URI: https://alihaiderhamadani.com/wp-nutirtion-label-plugin
+ * Plugin Name: Nutrition Label Generator
+ * Plugin URI: https://alihaiderhamadani.com/wp-nutrition-label-generator
  * Description: A plugin to display a nutrition label form via a shortcode.
  * Version: 1.7
  * Author: Syed Ali Haider
